@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  urlBase: 'https://bankairbnbapp.herokuapp.com',
+  urlSignUp: 'https://bankairbnbapp.herokuapp.com',
+  urlBooking: 'https://bankairbnbapp.herokuapp.com'
 };
 
 /*

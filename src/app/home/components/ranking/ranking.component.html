@@ -1,0 +1,11 @@
+<div [ngClass]="'ranking'"> 
+   
+   <section *ngFor= "let item of top5">
+    
+        <app-card [experience]= "item" ></app-card>
+      
+    </section>
+</div>  
+
+
+

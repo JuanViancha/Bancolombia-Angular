@@ -1,0 +1,10 @@
+<a [routerLink]="['/detail/' + experience._id]" [ngClass]="'housing'">   
+       
+        <img [src]="experience.image" width="200" />     
+        <div>
+            <h3>{{experience.title}}</h3> 
+            <h6>{{experience.place}}</h6>   
+            <app-score [score]="experience.score"></app-score>
+        </div>
+    
+</a>
